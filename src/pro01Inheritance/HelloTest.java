@@ -3,7 +3,11 @@ package pro01Inheritance;
 public class HelloTest {
 
 	public static void main(String[] args) {
-		System.out.println("Hello World!");
+		int a = 123, b;
+		double x = 345.678, y;
+
+		y = a;
+		b = (int) x;
 	}
 
 }
