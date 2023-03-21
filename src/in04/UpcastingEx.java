@@ -10,7 +10,8 @@ public class UpcastingEx {
 //		s는 하위클래스(Student)를 가리키는 객체로
 //		p는 s 객체를 할당받음
 		System.out.println(p.name);
-		p.grade = "A";
-		p.department = "Com";
+		// 오류 발생함
+//		p.grade = "A"; 
+//		p.department = "Com";
 	}
 }
