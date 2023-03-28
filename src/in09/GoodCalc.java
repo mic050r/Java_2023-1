@@ -1,7 +1,8 @@
 package in09;
 
 public class GoodCalc extends Calculaotr {
-
+	// 추상 클래스에서 상속 받은 추상메소드는
+	// GoodCalc 클래스에서 반드시 구현해야 한다. 구현하지 않으면 컴파일 오류
 	@Override
 	public int add(int a, int b) {
 		return a + b;
